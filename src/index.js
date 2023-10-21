@@ -49,7 +49,7 @@ async function takeData(params) {
     const data = await fetchData(`${params}`);
     if (data.total === 0) {
       Notiflix.Notify.failure(
-        'Ksюglee is sorry, there are no images matching your search query. Please try again.'
+        'Ksюgle is sorry, there are no images matching your search query. Please try again.'
       );
       throw new Error();
     }
@@ -57,7 +57,7 @@ async function takeData(params) {
     refs.form.style.display = 'flex';
     refs.formKsyglee.style.display = 'none';
 
-    Notiflix.Notify.success(`Ksюglee found ${data.totalHits} images.`);
+    Notiflix.Notify.success(`Ksюgle found ${data.totalHits} images.`);
 
     if (data.hits.length > 39) {
       refs.loadMore.classList.replace('loadMore-hidden', 'loadMore');

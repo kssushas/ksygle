@@ -36,7 +36,6 @@
     box-shadow: 0 3px 6px rgb(163, 130, 169);
 }
 
-
 .label{
      font-weight: 900;
      letter-spacing: 0.7em;
@@ -70,8 +69,7 @@ button[type="submit"]:hover
  
  .k1{
      font-size: 50px;
-     color: rgb(34, 130, 203);
-     
+     color: rgb(34, 130, 203);  
  }
  
  .c1{
@@ -96,7 +94,6 @@ button[type="submit"]:hover
  .e1{
      font-size: 30px;
      color: rgba(218, 59, 31, 0.826);
- 
  }
 
 
