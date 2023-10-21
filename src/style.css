@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(18, 14, 14);
+}
+
+/* ------------------FORM ABOVE--------------------------- */
+
+.search-form{
+    display: flex;
+    padding: 10px 10px 10px 130px;
+    align-items: center;
+   gap: 12%;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   box-shadow: 1 2px 4px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1);
+    background-color: rgba(234, 90, 136, 0.1);
+   
+}
+
+.input{
+    width:300px;
+    padding: 10px 0px 10px 10px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+   box-shadow: 2 4px 4px rgba(78, 27, 43, 0.2), 0 1px 2px rgba(71, 38, 48, 0.2);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  }
+  
+.input:hover,.input:focus{
+    box-shadow: 0 3px 6px rgb(163, 130, 169);
+}
+
+
+.label{
+     font-weight: 900;
+     letter-spacing: 0.7em;
+     text-shadow: 
+     -2px -2px 0 #fff,  
+     2px -2px 0 #fff,   
+     -2px 2px 0 #fff,  
+     2px 2px 0 #fff,    
+     0 0 10px rgba(0, 0, 0, 0.5); 
+
+ }
+
+ button[type="submit"]{
+    margin-left: 5px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    color: rgb(58, 54, 54);
+    background-color: rgba(152, 35, 175, 0.2);
+   box-shadow: 1 2px 4px rgba(78, 27, 43, 0.2), 0 1px 2px rgba(71, 38, 48, 0.2);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+}
+
+button[type="submit"]:hover
+{
+    box-shadow: 1px 4px 7px rgb(163, 130, 169);
+
+}
+ 
+ .k1{
+     font-size: 50px;
+     color: rgb(34, 130, 203);
+     
+ }
+ 
+ .c1{
+     font-size: 40px;
+     color: rgba(218, 59, 31, 0.826);
+ }
+ 
+ .y1{
+     color: rgb(243, 212, 13);
+     font-size: 30px;
+ }
+ 
+ .g1{
+     font-size: 30px;
+     color: rgb(22, 129, 210);
+ }
+ 
+ .l1{
+     font-size: 40px;
+     color: green;
+ }
+ .e1{
+     font-size: 30px;
+     color: rgba(218, 59, 31, 0.826);
+ 
+ }
+
+
+/* --------------------------------------------------------------- */
+.ksyglee{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.k{
+    font-size: 100px;
+    color: rgb(34, 130, 203);
+}
+
+.c{
+    font-size: 80px;
+    color: rgba(218, 59, 31, 0.826);
+}
+
+.y{
+    color: rgb(243, 212, 13);
+    font-size: 60px;
+}
+
+.g{
+    font-size: 60px;
+    color: rgb(22, 129, 210);
+}
+
+.l{
+    font-size: 70px;
+    color: green;
+}
+.e{
+    font-size: 60px;
+    color: rgba(218, 59, 31, 0.826);
+
+}
+
+.search-Ksyglee{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ksyglee-input{
+    font-size: 18px;
+    color: grey;
+    width: 520px;
+    padding: 10px 0px 10px 45px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2 4px 4px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1);
+    outline: none;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+
+}
+
+.ksyglee-input:hover, .ksyglee-input:focus{
+    box-shadow: 1px 2px 5px rgb(163, 130, 169);
+}
+
+.input-wrap{
+    position: relative;
+}
+
+.search-icon{
+ fill: gray;
+position: absolute;
+left: 10px;
+top: 50%;
+transform: translateY(-50%);}
+
+img {
+    width:  100%;
+    height: 170px;
+}
+
+.gallery{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+  
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 1px 5px 6px rgba(0,0,0,0.1);
+}
+
+.info-item>b{
+    font-size: 14px;
+}
+
+.photo-card{
+    width: 275px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+}
+
+.photo-card:hover,.photo-card:focus{
+    box-shadow: 1px 5px 7px rgba(23, 19, 19, 0.1);
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.loadMore-hidden{
+    display: none;
+}
+
+.loadMore{
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: rgb(29, 41, 41);
+    background-color: rgba(152, 35, 175, 0.2);
+    border: none;
+    border-radius: 5px;
+    margin: 40px auto;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+}
+
+.loadMore:hover,
+.loadMore:focus{
+    box-shadow: 1px 4px 7px rgb(163, 130, 169);
+}
+
+.lastP{
+   display: block;
+   margin: 40px 0;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 700;
+
+}
+
+.lastP-hidden{
+    display: none;
+}

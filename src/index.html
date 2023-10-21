@@ -3,12 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <title>Ksюglee</title>
+    <link rel="shortcut icon" href="./img/favicon-min.png" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+
+    <form class="search-Ksyglee">
+      <h1 class="ksyglee"><span class="k">K</span><span class="c">s</span><span class="y">ю</span><span class="g">g</span><span class="l">l</span><span class="e">e</span></h1>
+      <div class = "input-wrap">
+      <input
+        type="text"
+        class="ksyglee-input"
+        name="searchKsyglee"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+    <svg class = "search-icon" width="24" heigth="24">
+     <use href="./img/icons.svg#icon-magnify"></use>
+    </svg>
+    </div>
+    </form>
+   
+    <form class="search-form" id="search-form">
+      <label for="search" class="label"><span class="k1">K</span><span class="c1">s</span><span class="y1">ю</span><span class="g1">g</span><span class="l1">l</span><span class="e1">e</span></label>
+      <div class="input-wrapper">
+      <input
+        class="input"
+        type="text"
+        id="search"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit">Search</button>
+    </div>
+    </form>
+    
+    <div class="gallery">
+     
+    </div>
+    <button type="button" class="loadMore-hidden">Load more</button>
+    <p class="lastP-hidden"> Ksюglee is sorry, but you have reached the end of search results.</p>
   </body>
 </html>
